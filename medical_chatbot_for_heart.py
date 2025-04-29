@@ -117,6 +117,4 @@ while True:
     continue
   result=rag_chain.invoke(user_input)
   print("Answer:", result)
-
-!pip install nbstripout
-!nbstripout '/content/Medical_chatbot_for_Heart.ipynb'
+ 
